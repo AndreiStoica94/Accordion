@@ -1,0 +1,17 @@
+#accordion section p{
+   display: none;
+   text-align: center;
+   background: red;
+   font-style: italic;
+   font-size: 20px
+}
+ 
+#accordion section a{
+   text-align: center;
+   color: black;
+   text-decaration: none;
+}
+
+#accordion section:target p{
+   display: block;
+}
